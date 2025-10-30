@@ -43,11 +43,12 @@ void bfs(int u){
             }
         }
         cout<<"So thanh phan lien thong cua do thi :" <<ans<<endl;
-        if (ans==1){
-            cout <<"Do thi lien thong !\n";
+        if (ans==1)
+            cout <<"Do thi lien thong !\n" ;
             else cout <<"Do thi khong lien thong !\n";
-        }
-    }
+            
+            
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);

@@ -33,7 +33,7 @@ using ll =long long;
    }
    */
 
-   for (vector<int>::iterator it =v.begin(); it!=v,end(); ++it){
+   for (vector<int>::iterator it =v.begin(); it!=v.end(); ++it){
     cout <<*it <<endl;
    }
    for (auto it=v.begin(); it!=v.end(); ++it){
